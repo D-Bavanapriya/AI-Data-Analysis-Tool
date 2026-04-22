@@ -11,7 +11,8 @@ An interactive data analysis web app that allows users to upload datasets, explo
 * Scatter Plot
 * AI-powered automatic insights
 * Ask custom questions about your data
-Tech Stack
+  
+# Tech Stack
 - Frontend: Streamlit
 - Data Processing: Pandas, NumPy
 - Visualization: Plotly
