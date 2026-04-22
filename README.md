@@ -17,3 +17,18 @@ An interactive data analysis web app that allows users to upload datasets, explo
 - Data Processing: Pandas, NumPy
 - Visualization: Plotly
 - AI Integration: OpenAI
+
+# Setup & Installation
+1. Clone the repository
+    git clone <your-repo-link>
+    cd yt_app
+2. Create virtual environment
+    python -m venv .venv
+    .venv\Scripts\activate
+3. Install dependencies
+    pip install -r requirements.txt
+4. Add API key
+    Create .streamlit/secrets.toml
+    OPENAI_API_KEY = "your_api_key_here"
+5. Run the app
+    streamlit run app.py
